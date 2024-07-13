@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Store</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container my-5 ">
+        <div class="choose w-50  text-center text-white p-5" id="choose">
+            <h1>Welcome to our laptop store</h1>
+            <div class="buttons w-50 mx-auto my-5">
+                <button class="btn btn-outline-info m-3" id="StartLogin">Login</button>
+                <span>OR</span>
+                <button class="btn btn-outline-info m-3" id="StartSignUp">Signup</button>
+            </div>
+
+        </div>
+        <div class="header w-50 pb-5 text-center mx-auto d-none" id="header1">
+            <h1>Laptop Store</h1>
+        </div>
+        <div class="header w-100 pb-5 text-center d-flex justify-content-between d-none" id="header2">
+            <h1>Laptop Store</h1>
+            <button class="btn btn-outline-warning" id="logOut">Log Out</button>
+        </div>
+        <div class="login w-50 mx-auto  p-4 text-center d-none " id="Login">
+            <h2 class="py-3">Log In
+            </h2>
+            <input type="text" id="email" placeholder="Enter Your email" class="form-control my-4">
+            <input type="password" id="password" placeholder="Enter Your password" class="form-control my-4">
+            <p id="messageLogin" class="d-none">Sorry! Email or Password is incorrect </p>
+            <button class="btn btn-outline-success w-100 my-4" id="LoginBtn">Login</button>
+            <p >You don't have an account? <span id="toSignUP"> <a href="#Signup">Signup</a></span></p>
+               
+        </div>
+        <div class="Signup w-50 mx-auto p-4 text-center d-none " id="Signup">
+            <h2 class="py-3">Sign up </h2>
+            <input type="text" class="form-control my-4" placeholder="Enter Your email " id="signUpName" required >
+            <p id="check" class="d-none">Email Already taken !!</p>
+            <input type="password" id="password1" placeholder="Enter Your password" class="form-control my-4 "required>
+            <input type="password" id="password2" placeholder="Confirm Your password" class="form-control my-4"required>
+            <p id="check2" class="d-none">No match password !!</p>
+            <button class="btn btn-outline-success w-100 my-4 " id="signUpBtn">Sign up</button>
+            <p>You have an account? <span id="toLogin"> <a href="#Login">Login</a></span></p>
+        </div>
+        <div class=" row p-4 text-center gy-3 d-none" id="main">
+            <div class="image col-md-4">
+                <img src="images/image1.jpg" alt="" class="w-100">
+                <div class="content ">
+                    <p>HP Newest 14"  </p>
+                <p>Price : 18,998 L.E</p>
+                </div>
+            </div>
+            <div class="image col-md-4">
+                <img src="images/image2.jpg" alt="" class="w-100">
+               <div class="content"> <p>Dell Inspiron 3511 Laptop</p>
+                <p>Price : 9,989 L.E</p></div>
+            </div>
+            <div class="image col-md-4">
+                <img src="images/image3.jpg" alt="" class="w-100">
+           <div class="content">
+            <p>Acer Aspire 1 A115-32-C96U </p>
+            <p>Price : 19,990 L.E</p>
+           </div>
+            </div>
+            <div class="image col-md-4">
+                <img src="images/image4.jpg" alt="" class="w-100">
+               <div class="content">
+                <p>HP Chromebook 14 Laptop</p>
+                <p>Price : 20,000 L.E</p>
+               </div>
+            </div>
+            <div class="image col-md-4">
+                <img src="images/image5.jpg" alt="" class="w-100">
+               <div class="content">
+                <p>Lenovo V14 Gen 3 Business Laptop</p>
+                <p>Price : 18,998 L.E</p>
+               </div>
+            </div>
+            <div class="image col-md-4">
+                <img src="images/image6.jpg" alt="" class="w-100">
+               <div class="content">
+                <p>HP 2024 Portable 15 </p>
+                <p>Price : 18,998 L.E</p>
+               </div>
+            </div>
+            <div class="image col-md-4">
+                <img src="images/image7.jpg" alt="" class="w-100">
+            <div class="content">
+                <p>Lenovo IdeaPad 1 14 Laptop </p>
+                <p>Price : 18,998 L.E</p>
+            </div>
+            </div>
+            <div class="image col-md-4">
+                <img src="images/image8.jpg" alt="" class="w-100">
+                <div class="content">
+                    <p>HP 15.6" Diagonal Full HD</p>
+                <p>Price : 18,998 L.E</p>
+                </div>
+            </div>
+            <div class="image col-md-4">
+                <img src="images/image9.jpg" alt="" class="w-100">
+              <div class="content">  <p>Dell Inspiron 15 3000 3520 Business Laptop </p>
+                <p>Price : 18,998 L.E</p></div>
+            </div>
+
+            
+        </div>
+
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
